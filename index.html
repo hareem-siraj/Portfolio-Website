@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+
+    <header class="header">
+        <a href="#home" class = "logo">Hareem
+            <span>Siraj</span></a>
+
+        <i class='bx bx-menu' id = "menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1>Hi, It's <span>Hareem</span></h1>
+            <h3 class="text-animation">I'm a <span></span></h3>
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio ratione unde deserunt exercitationem amet laudantium eaque accusamus, excepturi velit consectetur fugiat repudiandae id numquam incidunt, ad mollitia dolorum distinctio necessitatibus?</p>
+            
+            <div class ="social-icons">
+                <a href="https://www.linkedin.com/in/hareem-siraj/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/hareem-siraj" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+            </div>
+
+            <div class="btn-group">
+                <!-- <a href="#" class="btn">Hire</a> -->
+                <!-- <a href="#" class="btn">Download CV</a> -->
+                <a href="#contact" class="btn">Contact</a>
+            </div>
+        </div>
+
+            <div class="home-img">
+                <img src="OIP.jpeg" alt="">
+            </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class ="heading">Education</h2>
+
+        <div class="timeline-items">
+
+            <div class = "timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021-2025</div>
+                    <div class="timeline-content">
+                    <h3>BS Computer Science</h3>
+                    <p>Habib University</p>
+                </div>       
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                    <div class="timeline-date">2019-2021</div>
+                    <div class="timeline-content">
+                        <h3>Pre Engineering</h3>
+                        <p>Bahria College Karsaz</p>
+                    </div>
+            </div>
+            
+        </div>
+
+    </section>
+
+    <section class="experience" id = "experience">
+        <h2 class = "heading">Experience</h2>
+        <div class="timeline-items">
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Jun 2024 - Jul 2024</div>
+                <div class="timeline-content">
+                    <h3>AI Intern</h3>
+                    <p>Kairiz Cyber Technologies</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date"> Dec 2023 - Feb 2024</div>
+                <div class="timeline-content">
+                    <h3>Information technology Intern</h3>
+                    <p>The Citizens Foundation</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">Jul 2023 - Aug 2023</div>
+                <div class="timeline-content">
+                    <h3>Data Science Intern</h3>
+                    <p>Oasis Infobyte</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-date">May 2023 - Jul 2023</div>
+                <div class="timeline-content">
+                    <h3>Data Visualization Intern</h3>
+                    <p>Tata Motors Internship Program</p>
+                </div>
+            </div>
+    </section>
+
+    <section class = "projects" id = "projects">
+        <h2 class = "heading">Projects</h2>
+
+        <div class="projects-container">
+            <div class="project-box">
+                <div class="project-info">
+                    <h4>Stock Market Real-time Data Analysis using Apache Kafka</h4>
+                    
+                </div>
+            </div>
+
+            <div class="project-box">
+                <div class="project-info">
+                    <h4>Youtube Data Analysis</h4>
+                    
+                </div>
+            </div>
+
+            <div class="project-box">
+                <div class="project-info">
+                    <h4>MusicHub - Artist Recommendation System</h4>
+                   
+                </div>
+            </div>
+
+            <div class="project-box">
+                <div class="project-info">
+                    <h4>PakWheels Web Scraper</h4>
+                    
+                </div>
+            </div>
+
+            <div class="project-box">
+                <div class="project-info">
+                    <h4>Sprint Car Derby 2D Game</h4>
+                   
+                </div>
+            </div>
+
+            <div class="project-box">
+                <div class="project-info">
+                    <h4>Car Price Predictor Website</h4>
+                   
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form action="">
+            <div class="input-group">
+                <div class="input-box">
+                    <input type="text" 
+                    placeholder="Your Name" required>
+                    <input type="email"
+                    placeholder="Your Email" required>
+                </div>
+
+                <div class = "input-box">
+                    <input type="number"
+                    placeholder="Your Phone">
+                    <input type="text"
+                    placeholder="Subject" required>
+                </div>
+            </div>
+
+            <div class="input-group-2">
+                <textarea name="" id="" cols="30"
+                rows="10" placeholder="Your Message" required></textarea>
+                <input type="submit" value="Send", class = "btn">
+            </div>
+
+        </form>
+
+    </section>
+
+    <footer class="footer">
+        <div class = "social">
+            <a href="https://www.linkedin.com/in/hareem-siraj/" target="_blank"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://github.com/hareem-siraj" target="_blank"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+        </div>
+
+        <ul class="list">
+            <li>
+                <a href="#">FAQ</a>
+            </li>
+
+            <li>
+                <a href="#">Experience</a>
+            </li>
+
+            <li>
+                <a href="#">About Me</a>
+            </li>
+
+            <li>
+                <a href="#">contact</a>
+            </li>
+
+            <li>
+                <a href="#">Education</a>
+            </li>
+        </ul>
+        <p class="copyright">&#169; 2023 Hareem Siraj. All Rights Reserved.</p>
+    </footer>
+
+       
+        
+
+
+    <script src="script.js"></script>
+</body>
+</html> 
